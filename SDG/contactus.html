@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SDG - Contact Us</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<meta http-equiv="Sachem Dental Group" content="Sachem Dental Group" />
+<meta http-equiv="Sachem Dental Group" content="" />
+<link href="css/style.css"rel="stylesheet" type="text/css" />
+</head>
+
+<script language="JavaScript">
+<!--
+function hideAddressBar()
+{
+  if(!window.location.hash)
+  {
+      if(document.height < window.outerHeight)
+      {
+          document.body.style.height = (window.outerHeight + 50) + 'px';
+      }
+
+      setTimeout( function(){ window.scrollTo(0, 1); }, 10 );
+  }
+}
+
+window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddressBar(); } } );
+window.addEventListener("orientationchange", hideAddressBar );
+//-->
+</script>
+
+<body>
+<div class="logo">
+<h1><a href="index.html"><img src="images/logo.jpg"></a></h1>
+<b>Contact Sachem Dental </b>
+</div>
+
+<center>
+<div style="width:580px; background:#ffffff;margin:40px 0 0 0; padding: 10px;">
+<table style="width: 100%; border: none;" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<img src="images/contact.jpg" style="width: 120px; height: 118px; border:2px solid #3d5d2b;"><br><br>
+	<td class="cont">
+
+	<script type="text/javascript">
+	<!--
+		oValidator.required("main", "NAME", "Field value for 'Name' is invalid", "REGULAR");
+		oValidator.required("main", "PHONE", "Field value for 'Phone' is invalid", "PHONE");
+		oValidator.required("main", "EMAIL", "Email address entered in 'Email' is invalid", "EMAIL");
+		function SubmitForm(oForm) {
+			return oValidator.validate(oForm);
+		}
+	//-->
+	</script>
+
+	<form name="main" method="post" action="/scripts/mailform2.asp" onSubmit="return SubmitForm(this);">
+		<input type="hidden" name="RECIPIENT" value="patientrelations@sachemdental.com">
+		<input type="hidden" name="SUBJECT" value="Email Sachem Dental Group Web Site">
+		<input type="hidden" name="REDIRECT" value="/contact/thankyou.asp">
+		<table cellspacing="0" cellpadding="0">
+		<tbody><tr>
+			<td colspan="2" style="color:#b52613;font-size:9px;">
+				<p style="color: #000000; font-size: 12px;">We encourage patients to use this link to make suggestions and comments. However, 									please call appropriate office listed below to make appointments.</p>
+												* - Required fields
+		</td></tr>
+		<tr>
+		<td style="padding:10px 0 0 0;color:#b52613;">
+		<b>*Name:</b>
+		</td>
+
+		<td style="padding:10px 0 0 0;">
+			<input type="text" name="NAME" size="30" maxlength="100">
+		</td></tr>
+
+		<tr>
+		<td style="padding:10px 0 0 0;color:#b52613;">
+		<strong>*Phone:</strong>
+		</td>
+		<td style="padding:10px 0 0 0;">
+		<input type="text" name="PHONE" size="30" maxlength="100">
+		</td></tr>
+
+		<tr><td style="padding:10px 0 0 0;color:#b52613;">
+		<strong>*Email:</strong>
+		</td>
+		
+		<td style="padding:10px 0 0 0;">
+		<input type="text" name="EMAIL" size="30" maxlength="100">
+		</td></tr>
+			
+		<tr><td colspan="2" style="padding:10px 0 0 0;"><strong>Comments or Questions</strong><br>
+		<p style="text-align:left; padding:0 10px 0 0;"><textarea cols="50" rows="8" name="COMMENTS"></textarea></p>
+		</td></tr>
+		</tbody></table>
+	
+		<input type="image" src="images/submit.jpg" style="margin:10px 0 0 0;" alt="Submit"><br>
+	</form>
+	<br>
+	<center>
+	<p>We encourage you to call us at any time with suggestions or comments.</p>
+	<p>470 Patchogue- Holbrook Rd.<br>Holbrook, NY 11741<br><a href="tel:6315898485">(631) 589-8485</a></p>
+	<p>469 Hawkins Ave.<br>Lake Ronkonkoma, NY 11779<br><a href="tel:6315888280">(631) 588-8280</a></p>
+	<p>110 Smithtown Blvd. <br>Nesconset, NY 11767<br><a href="tel:6313828585">(631) 382-8585</a></p>
+	<p>971 Broadway Ave.<br>Holbrook, NY 11741<br><a href="tel:6315898451">(631) 589-8451</a></p>
+	<p>235 Boyle Rd.<br>Selden, NY 11784<br><a href="tel:6317328338">(631) 732-8338</a></p>
+	</center>
+	</td>
+	</tr>
+	</tbody></table>
+</div>
+	</td>
+	</tr>
+</tbody>
+</center>
+
+<div class="menu2">
+<div class="footer">
+<p class="alignright">
+<a href="http://www.sachemdental.com/terms/">Terms &amp; Conditions</a></p>
+</div>
+</div>
+
+</body>
+</html>
